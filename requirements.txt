@@ -14,3 +14,5 @@ uvicorn
 requests
 streamlit
 langchain_huggingface
+pypdf
+sentence-transformers

@@ -1,1 +1,70 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints
+
+# Environment files
+.env
+.env.*
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Chroma DB persistence
+chroma_db/
+**/chroma_db/
+*.sqlite3
+*.sqlite
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+*.tmp
+
+# Notebook checkpoints and outputs
+output/
 .env
